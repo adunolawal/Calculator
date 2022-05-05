@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:cursive;
+    font-weight: normal;
+}
+button {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: -4px;
+    padding: 30px 35px 35px 30px;
+    border: none;
+    border-radius: 25rem;
+    background-color: wheat;
+    text-align: center;
+}
+button:hover {
+    background-color: rgba(65, 62, 62, 0.322);
+    transition: 300ms;
+    transform: scale(1.05);
+    color:beige;
+}
+.buttonsy{
+    padding-left: 8px;
+    background-color: rgba(10, 9, 9, 0.822); 
+    justify-content: center;
+    align-items: center;
+    width:22.5rem; 
+    margin-left: 30rem;
+}
+.span-two {
+    padding: 30px 55px 35px 40px;
+    text-align: center;
+    background-color: burlywood;
+}
+.output {
+    padding:3.5rem;
+    color:beige;
+    background-color: rgba(0, 0, 0, 0.322);
+    font-size: 1.5rem;
+    border-radius: 10rem;
+    border: 5px solid burlywood;
+}
